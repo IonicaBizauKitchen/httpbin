@@ -124,6 +124,10 @@ $ pip install httpbin
 $ gunicorn httpbin:app
 ```
 
+## Deploying to Heroku
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## Changelog
 
 * 0.2.0: Added an XML endpoint.  Also fixes several bugs with unicode, CORS headers, digest auth, and more.
@@ -139,4 +143,3 @@ Project.
 ## SEE ALSO
 
 <http://python-requests.org>
-
